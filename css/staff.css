@@ -58,6 +58,42 @@
 .owl-nav{
     height: 0;
 }
+@media screen and (max-width:768px){
+    .staff-item{
+        width: 230px;
+        height: 320px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .staff-name{
+        font-size: 15px;
+    }
+    .staff-post{
+        font-size: 10px;
+    }
+    .staff-background {
+        width: 160px;
+        text-align: center;
+        height: 50px;
+        margin-left: 45px;
+        bottom: 0px;
+    }
+    .slider-button{
+        margin-left: 300px;
+        width: 55px;
+        height: 55px;
+        top: 0px;
+    }
+    .prev_button{
+        margin-left: 230px;
+    }
+    .next_button{
+        margin-left: 180px;
+    }
+    .staff-list{
+        padding-top: 100px;
+    }
+}
 @media screen and (max-width:400px){
     .staff-item{
         width: 250px;
@@ -77,5 +113,11 @@
         height: 50px;
         margin-left: 45px;
         bottom: 0px;
+    }
+    .staff-list{
+        padding-top: 0px;
+    }
+    .slider-button{
+        display: none;
     }
 }

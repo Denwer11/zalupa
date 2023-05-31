@@ -1,3 +1,5 @@
+::-webkit-scrollbar{width:2px;height:2px;}
+::-webkit-scrollbar-button{width:2px;height:2px;}
 
 .rooms__sale {
     color: #93979F;
@@ -76,6 +78,9 @@
     width: 280px;
   }
   @media screen and (max-width:768px){
+    .rooms-item:hover {
+      transform: scale(1);
+  }
     .rooms-list{
       overflow-x: scroll;
     }

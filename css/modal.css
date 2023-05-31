@@ -78,7 +78,7 @@ cursor:pointer;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 1245px;
+    max-width: 1245px;
     padding: 1em 3em 3em 7em;
     min-height: 250px;
     position: fixed;
@@ -133,4 +133,14 @@ cursor:pointer;
 .modal__call-text{
     font-size: 20px;
     font-weight: 600;
+}
+
+@media screen and (max-width:1285px){
+    .modal__block-img{
+display: none;
+    }
+    .modal{
+        left: 20%;
+        margin-left: 0;
+    }
 }

@@ -77,7 +77,23 @@ height: 30px;
 .active-pr-round{
     margin-top: 23px;
 }
-
+@media screen and (max-width:768px){
+    .questions-col{
+        width: 25em;
+    }
+    .questions__problem-round{
+        width: 35px;
+        height: 30px;
+    }
+    .questions__problem-icon{
+        width: 16px;
+        height: 19px;
+        margin: 10px;
+    }
+    .questions__problem-text{
+        font-size: 14px;
+    }
+    }
 @media screen and (max-width:400px){
     .questions-col{
         width: 24em;
@@ -99,3 +115,12 @@ height: 30px;
         font-size: 14px;
     }
     }
+
+    @media screen and (max-width:715px){
+
+        .questions-list{
+            flex-direction: column;
+            align-items: center;
+        }
+
+        }

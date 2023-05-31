@@ -18,3 +18,24 @@ const openModal = function () {
 
   closeModalBtn.addEventListener("click", closeModal);
   overlay.addEventListener("click", closeModal);
+
+const modalBookingMini = document.querySelector(".modal-booking-mini");
+const overlayBooking = document.querySelector(".overlay-booking");
+const openModalBtnBooking = document.querySelectorAll(".btn-modal-booking");
+const closeModalBtnBooking = document.querySelector(".btn-close-booking");
+
+const openModalBooking = function () {
+    modalBooking.classList.remove("hidden");
+    overlayBooking.classList.remove("hidden");
+  };
+
+  openModalBtn.forEach(function(btn) {
+    btn.addEventListener("click", openModal)});
+
+  const closeModalBooking = function () {
+    modalBooking.classList.add("hidden");
+    overlayBooking.classList.add("hidden");
+  };
+
+  closeModalBtnBooking.addEventListener("click", closeModal);
+  overlayBooking.addEventListener("click", closeModal);
